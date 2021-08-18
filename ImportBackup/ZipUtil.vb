@@ -1,6 +1,7 @@
 ﻿Imports ICSharpCode.SharpZipLib.Zip
 Imports ICSharpCode.SharpZipLib.Checksums
 Imports System.IO
+Imports ICSharpCode.SharpZipLib.Checksum
 
 Public Class ZipUtil
     Dim frm As ImportBackup
