@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A7B99BD-BDC4-43DD-B0E5-934074868D8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TallerJoaquin.My.MyApplication</StartupObject>
+    <RootNamespace>TallerJoaquin</RootNamespace>
+    <AssemblyName>Taller Joaquín</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>performance systeme OS.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Taller Joaquín.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Salida\</OutputPath>
+    <DocumentationFile>Taller Joaquín.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Taller Joaquín.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Taller Joaquín.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\Salida\</OutputPath>
+    <DocumentationFile>Taller Joaquín.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\..\..\Salida\Taller Joaquín.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Taller Joaquín.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Taller Joaquín.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\Salida\</OutputPath>
+    <DocumentationFile>Taller Joaquín.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\..\..\Salida\Taller Joaquín.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Agenda, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <ExecutableExtension>.exe</ExecutableExtension>
+      <HintPath>..\Calendar\obj\Release\Agenda.exe</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Formularios de Gestion\Compras.Designer.vb">
+      <DependentUpon>Compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Gestion\Compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Programa\GenerarInforme.Designer.vb">
+      <DependentUpon>GenerarInforme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Programa\GenerarInforme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Busqueda\BuscarHistorial.Designer.vb">
+      <DependentUpon>BuscarHistorial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Busqueda\BuscarHistorial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Busqueda\BuscarCoche.Designer.vb">
+      <DependentUpon>BuscarCoche.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Busqueda\BuscarCoche.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Busqueda\BuscarFactura.Designer.vb">
+      <DependentUpon>BuscarFactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Busqueda\BuscarFactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Gestion\OrdenTrabajo.Designer.vb">
+      <DependentUpon>OrdenTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Gestion\OrdenTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Gestion\DatosCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Gestion\DatosCliente.Designer.vb">
+      <DependentUpon>DatosCliente.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Busqueda\BuscarCliente.Designer.vb">
+      <DependentUpon>BuscarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Busqueda\BuscarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Gestion\HistorialCoche.Designer.vb">
+      <DependentUpon>HistorialCoche.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Gestion\HistorialCoche.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Gestion\Facturas.Designer.vb">
+      <DependentUpon>Facturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Gestion\Facturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Gestion\Traspaso.Designer.vb">
+      <DependentUpon>Traspaso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Gestion\Traspaso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Programa\Opcion.Designer.vb">
+      <DependentUpon>Opcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Programa\Opcion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Programa\PreInicio.Designer.vb">
+      <DependentUpon>PreInicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Programa\PreInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios de Programa\Progreso.Designer.vb">
+      <DependentUpon>Progreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Programa\Progreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Formularios de Programa\Inicio.Designer.vb">
+      <DependentUpon>Inicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios de Programa\Inicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview\ImagenPreview.Designer.vb">
+      <DependentUpon>ImagenPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preview\ImagenPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formularios de Busqueda\BuscarHistorial.resx">
+      <DependentUpon>BuscarHistorial.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Busqueda\BuscarCliente.resx">
+      <DependentUpon>BuscarCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Busqueda\BuscarCoche.resx">
+      <DependentUpon>BuscarCoche.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Busqueda\BuscarFactura.resx">
+      <DependentUpon>BuscarFactura.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Gestion\Compras.resx">
+      <DependentUpon>Compras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Gestion\OrdenTrabajo.resx">
+      <DependentUpon>OrdenTrabajo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Gestion\DatosCliente.resx">
+      <DependentUpon>DatosCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Gestion\HistorialCoche.resx">
+      <DependentUpon>HistorialCoche.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Gestion\Facturas.resx">
+      <DependentUpon>Facturas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Gestion\Traspaso.resx">
+      <DependentUpon>Traspaso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Programa\GenerarInforme.resx">
+      <DependentUpon>GenerarInforme.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Programa\Opcion.resx">
+      <DependentUpon>Opcion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Programa\PreInicio.resx">
+      <DependentUpon>PreInicio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Programa\Progreso.resx">
+      <DependentUpon>Progreso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios de Programa\Inicio.resx">
+      <DependentUpon>Inicio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\ImagenPreview.resx">
+      <DependentUpon>ImagenPreview.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Img\2005-Porsche-Carrera-GT-Mirage-Gemballa-in-Monaco-Photo-Gallery-D-full-max.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\car2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\car6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\ferrari-f430-novitec-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="performance systeme OS.ico" />
+    <None Include="Resources\1273320343_Calendar.png" />
+    <None Include="Resources\1273320305_advancedsettings.png" />
+    <None Include="Resources\RepumanoUser.png" />
+    <None Include="Resources\BalanceUser.png" />
+    <None Include="Resources\VerFactura.png" />
+    <None Include="Resources\Transpasar.png" />
+    <None Include="Resources\ModificarHistorial.png" />
+    <None Include="Resources\InsertarFoto.png" />
+    <None Include="Resources\ImprimirFactura.png" />
+    <None Include="Resources\CrearFactura.png" />
+    <None Include="Resources\BuscarHistorial.png" />
+    <None Include="Resources\BuscarFactura.png" />
+    <None Include="Resources\BuscarCoche.png" />
+    <None Include="Resources\BorrarHistorial.png" />
+    <None Include="Resources\BorrarFoto.png" />
+    <None Include="Resources\1272029747_bar_chart.png" />
+    <None Include="Resources\1271966523_edit-clear.png" />
+    <None Include="Resources\1271966377_document-save-as.png" />
+    <None Include="My Project\app.manifest" />
+    <None Include="Resources\ManoRepu.png" />
+    <None Include="Resources\1269332160_CabrioletRed.png" />
+    <None Include="Resources\1269094692_CabrioletRed1.png" />
+    <None Include="Resources\1269094692_CabrioletRed.png" />
+    <None Include="Resources\1269098499_button_blue_first.png" />
+    <None Include="Resources\1269098461_Play1Pressed.png" />
+    <None Include="Resources\1269098461_Play1Pressed - copia.png" />
+    <None Include="Resources\1269098453_button_blue_last.png" />
+    <None Include="Resources\1269095529_smserver.png" />
+    <None Include="Resources\1269095448_exit.png" />
+    <None Include="Resources\1269094726_CarRepair.png" />
+    <None Include="Resources\1269047479_userconfig.png" />
+    <None Include="Resources\1269047330_network_search.png" />
+    <None Include="Resources\1269047272_network_unlock.png" />
+    <None Include="Resources\1269047232_network_close.png" />
+    <None Include="Resources\1269047212_network_save.png" />
+    <None Include="Resources\1269047085_network_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.9.2">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition SP2 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="SAP.CrystalReports14.NET.2.0">
+      <Visible>False</Visible>
+      <ProductName>SAP Crystal Reports Runtime Engine for .NET Framework 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataBaseLib\DataBaseLib.vbproj">
+      <Project>{1B68542B-FCB3-4752-90EB-254B9AFF36D0}</Project>
+      <Name>DataBaseLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DateTime\DateTime.vbproj">
+      <Project>{195E024B-EC7E-45F1-8807-E6FB4A00AFB4}</Project>
+      <Name>DateTime</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Informes\Reports.vbproj">
+      <Project>{716DCD46-8821-4B74-864D-15C3B9292376}</Project>
+      <Name>Reports</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Masked\Masked.vbproj">
+      <Project>{35341AEE-F81C-4788-A389-7B6964123402}</Project>
+      <Name>Masked</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NullableDateTimePicker\NullableDateTimePicker.csproj">
+      <Project>{5AD46440-FC5C-455C-8326-B243C91AD4EB}</Project>
+      <Name>NullableDateTimePicker</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnlyNum\OnlyNum.vbproj">
+      <Project>{0F800B52-1D0B-454A-A89A-74114166A145}</Project>
+      <Name>OnlyNum</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RYCCheckBox\RYCCheckBox.vbproj">
+      <Project>{E6D437EF-C07C-480E-8AA7-BC406FEDB1EC}</Project>
+      <Name>RYCCheckBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RYCProgressBar\RYCProgressBar.vbproj">
+      <Project>{31B4B561-4567-4B29-9A03-0A18ED1347D1}</Project>
+      <Name>RYCProgressBar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SizableImg\SizableImg.vbproj">
+      <Project>{EA8F6F89-B796-47F3-9FA6-177271B22F82}</Project>
+      <Name>SizableImg</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
