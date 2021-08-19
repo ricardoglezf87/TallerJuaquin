@@ -53,12 +53,11 @@ Namespace My
                 Return defaultInstance
             End Get
         End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\BindingSource.mdf;Integ"& _ 
-            "rated Security=True;Connect Timeout=90000;User Instance=True")>  _
+
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),
+         Global.System.Configuration.DefaultSettingValueAttribute("Server=192.168.0.228;Database=DatosTaller;User Id=tortilla;Password=basededatos+huevos")>
         Public ReadOnly Property DatosTallerConnectionString() As String
             Get
                 Return CType(Me("DatosTallerConnectionString"),String)

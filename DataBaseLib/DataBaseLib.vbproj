@@ -238,11 +238,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BindingSource.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="BindingSource_log.ldf">
-      <DependentUpon>BindingSource.mdf</DependentUpon>
+    <Content Include="BaseDatos.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

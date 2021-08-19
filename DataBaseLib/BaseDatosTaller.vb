@@ -1,4 +1,5 @@
 ﻿Imports DataBaseLib.DatosTallerDataSetTableAdapters
+Imports System.Data.SqlClient
 Imports System.Drawing
 
 Public Module BaseDatosTaller
@@ -135,9 +136,6 @@ Public Module BaseDatosTaller
     Public Sub Inicializar(ByVal Tablas As String)
 
         Try
-
-            ' dsDatos = New DatosTallerDataSet
-
             da = New TableAdapterManager
 
             dsDatos.EnforceConstraints = False
@@ -232,7 +230,7 @@ Public Module BaseDatosTaller
                 GuardarImagenHistorial()
             End If
         Catch ex As Exception
-
+            MsgBox(ex.Message)
         End Try
     End Sub
 
@@ -323,7 +321,7 @@ Public Module BaseDatosTaller
     Public Sub BorrarHistorial(ByVal IDHistorial As Integer)
 
         For Each row As ImgData.ImagenHistorialRow In BuscarImagenHistorial(IDHistorial)
-            BorrarImagenHistorial(row.IDImagenHistorial, IDHistorial)            
+            BorrarImagenHistorial(row.IDImagenHistorial, IDHistorial)
         Next
 
         GuardarImagenHistorial()
