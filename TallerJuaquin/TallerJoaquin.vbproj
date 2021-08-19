@@ -460,6 +460,10 @@
     <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CalendarioService\CalendarioService.vbproj">
+      <Project>{4cf47f79-65c2-475f-86cf-39af71e975a8}</Project>
+      <Name>CalendarioService</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataBaseLib\DataBaseLib.vbproj">
       <Project>{1B68542B-FCB3-4752-90EB-254B9AFF36D0}</Project>
       <Name>DataBaseLib</Name>
@@ -468,9 +472,17 @@
       <Project>{195E024B-EC7E-45F1-8807-E6FB4A00AFB4}</Project>
       <Name>DateTime</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ImportBackup\ImportBackup.vbproj">
+      <Project>{5587123b-b090-49f3-aad3-9941743e5ee2}</Project>
+      <Name>ImportBackup</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Informes\Reports.vbproj">
       <Project>{716DCD46-8821-4B74-864D-15C3B9292376}</Project>
       <Name>Reports</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MakeBackup\MakeBackup.vbproj">
+      <Project>{524c7fbc-0a7c-4568-a4d8-e0f2bd175def}</Project>
+      <Name>MakeBackup</Name>
     </ProjectReference>
     <ProjectReference Include="..\Masked\Masked.vbproj">
       <Project>{35341AEE-F81C-4788-A389-7B6964123402}</Project>
@@ -484,6 +496,10 @@
       <Project>{0F800B52-1D0B-454A-A89A-74114166A145}</Project>
       <Name>OnlyNum</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RepairBaseDatos\RepairBaseDatos.vbproj">
+      <Project>{554c25c1-ec2c-4a00-8208-dd6fe2d620d7}</Project>
+      <Name>RepairBaseDatos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RYCCheckBox\RYCCheckBox.vbproj">
       <Project>{E6D437EF-C07C-480E-8AA7-BC406FEDB1EC}</Project>
       <Name>RYCCheckBox</Name>
@@ -495,6 +511,10 @@
     <ProjectReference Include="..\SizableImg\SizableImg.vbproj">
       <Project>{EA8F6F89-B796-47F3-9FA6-177271B22F82}</Project>
       <Name>SizableImg</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Windows.Forms.Calendar\CalendarioRYC.csproj">
+      <Project>{25649f08-3046-4891-adb8-7ea787b57063}</Project>
+      <Name>CalendarioRYC</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />

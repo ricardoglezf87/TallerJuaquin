@@ -211,12 +211,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\System.Windows.Forms.Calendar\CalendarioRYC.csproj">
-      <Project>{25649F08-3046-4891-ADB8-7EA787B57063}</Project>
-      <Name>CalendarioRYC</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="1276176949_notebook_boy.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -235,6 +229,12 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\System.Windows.Forms.Calendar\CalendarioRYC.csproj">
+      <Project>{25649f08-3046-4891-adb8-7ea787b57063}</Project>
+      <Name>CalendarioRYC</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
